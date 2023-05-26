@@ -1,0 +1,53 @@
+{
+  "Turnos": [
+    {
+      "nombrePaciente": "Juan Pérez",
+      "nombreMedico": "Dr. Rodríguez (Gastroenterólogo)",
+      "fechaHora": "2023-05-26 10:30",
+      "formaPago": "Tarjeta de crédito",
+      "sucursal": "Clínica 1"
+    },
+    {
+      "nombrePaciente": "María Gómez",
+      "nombreMedico": "Dra. López (Dentista)",
+      "fechaHora": "2023-05-27 15:00",
+      "formaPago": "Efectivo",
+      "sucursal": "Clínica 2"
+    },
+    {
+      "nombrePaciente": "Pedro Ramírez",
+      "nombreMedico": "Dr. Fernández (Cardiólogo)",
+      "fechaHora": "2023-05-28 11:45",
+      "formaPago": "Seguro médico",
+      "sucursal": "Clínica 1"
+    },
+    {
+      "nombrePaciente": "Ana Sánchez",
+      "nombreMedico": "Dra. Martínez (Ginecóloga)",
+      "fechaHora": "2023-05-29 09:15",
+      "formaPago": "Seguro médico",
+      "sucursal": "Clínica 3"
+    },
+    {
+      "nombrePaciente": "Luis Torres",
+      "nombreMedico": "Dr. Ramírez (Pediatra)",
+      "fechaHora": "2023-05-30 14:30",
+      "formaPago": "Efectivo",
+      "sucursal": "Clínica 2"
+    },
+    {
+      "nombrePaciente": "Laura López",
+      "nombreMedico": "Dra. García (Dermatóloga)",
+      "fechaHora": "2023-06-01 11:00",
+      "formaPago": "Tarjeta de crédito",
+      "sucursal": "Clínica 3"
+    },
+    {
+      "nombrePaciente": "Carlos Rodríguez",
+      "nombreMedico": "Dr. Herrera (Oftalmólogo)",
+      "fechaHora": "2023-06-02 16:45",
+      "formaPago": "Efectivo",
+      "sucursal": "Clínica 1"
+    }
+  ]
+}

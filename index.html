@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css">
+  <title>Clínica Médica</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sistema de administración de turnos médicos</h1>
+
+    <section class="botonera">
+      <div id="botonVerTurnos" class="boton">Ver turnos de .Json</div>
+      <div id="botonCrearTurno" class="boton">Crear nuevo turno</div>
+      <div id="botonEliminarTurno" class="boton">Ver o eliminar turno guardado en Local Storage</div>
+    </section>
+
+    <section id="sectionMuestra">
+    </section>
+
+    <section id="sectionCrear" style="display: none;">
+      <form id="formularioTurnoNuevo" class="formulario">
+        <label for="nombreDelPaciente">Nombre del paciente:</label>
+        <input class="inputs" type="text" id="nombreDelPaciente" required>
+
+        <label for="nombreDelMedico">Lista de profesionales:</label>
+        <select id="nombreDelMedico" class="inputs" required>
+          <option value="" disabled selected hidden>Seleccionar profesional de la salud</option>
+          <option value="Dr. Rodríguez (Gastroenterólogo)">Dr. Rodríguez (Gastroenterólogo)</option>
+          <option value="Dra. López (Dentista)">Dra. López (Dentista)</option>
+          <option value="Dr. Fernández (Cardiólogo)">Dr. Fernández (Cardiólogo)</option>
+          <option value="Dra. Martínez (Ginecóloga)">Dra. Martínez (Ginecóloga)</option>
+          <option value="Dr. Ramírez (Pediatra)">Dr. Ramírez (Pediatra)</option>
+          <option value="Dra. García (Dermatóloga)">Dra. García (Dermatóloga)</option>
+          <option value="Dr. Herrera (Oftalmólogo)">Dr. Herrera (Oftalmólogo)</option>
+        </select>
+
+
+        <label for="formaDePago">Forma de pago:</label>
+        <select id="formaDePago" class="inputs" required>
+          <option value="" disabled selected hidden>Seleccionar una forma de pago</option>
+          <option value="Seguro Médico">Seguro Médico</option>
+          <option value="Efectivo en la clínica">Efectivo en la clínica</option>
+          <option value="Tarjeta de débito o crédito">Tarjeta de débito o crédito</option>
+        </select>
+
+        <label for="sucursal">Seleccionar alguna de nuestras clínicas</label>
+        <select id="sucursal" class="inputs" required>
+          <option value="" disabled selected hidden>Seleccionar clínica</option>
+          <option value="Clínica 1 (Av. Corrientes 840)">Clínica 1 (Av. Corrientes 840)</option>
+          <option value="Clínica 2 (Florida 455)">Clínica 2 (Florida 455)</option>
+          <option value="Clínica 3 (Guemes 4222)">Clínica 3 (Guemes 4222)</option>
+        </select>
+
+
+        <label for="fechaHora">Fecha y Hora de Preferencia:</label>
+        <input type="datetime-local" id="fechaHora" name="fechaHora" class="inputs" required>
+
+        <button type="submit" class="btnParaCrearTurno">Crear turno</button>
+      </form>
+    </section>
+
+    <section id="sectionEliminar" style="display: none;">
+
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
