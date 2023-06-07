@@ -23,7 +23,7 @@ function mostrarTurnos() {
   seccionMuestra.style.display = "block";
   seccionMuestra.innerHTML = "";
 
-  fetch("./turnosPacientes.json")
+  fetch("../data/turnosPacientes.json")
     .then((response) => response.json())
     .then((data) => {
       if (data && data.Turnos && Array.isArray(data.Turnos)) {
